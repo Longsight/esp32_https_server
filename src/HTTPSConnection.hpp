@@ -6,7 +6,7 @@
 #include <string>
 
 // Required for SSL
-#include "openssl/ssl.h"
+#include "esp_tls.h"
 #undef read
 
 // Required for sockets
